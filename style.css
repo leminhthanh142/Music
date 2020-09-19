@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: white;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.player {
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #46c2d3;
+}
+.display {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons, .now-playing {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+.icons i {
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+}
+.icons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.play-pause {
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e3edff;
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
+    overflow: scroll;
+}
+.container .song {
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    padding: 10px;
+}
+.container .song:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.fill-bar {
+    width: 80%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #e3edff;
+    margin-left: 10px;
+}
+.fill {
+    height: 4px;
+    width: 0;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.3);
+}

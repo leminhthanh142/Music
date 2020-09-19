@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e01cfc4369.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Music Playlist</title>
+</head>
+<body>
+    <div class="player">
+        <div class="display">
+            <div class="time">
+                <span id="min">00</span>:<span id="sec">00</span>
+            </div>
+            <div class="fill-bar">
+                <div class="fill"></div>
+            </div>
+        </div>
+        <div class="now-playing">
+            <p>Now Playing: <span id="now-playing"></span></p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-step-backward"></i>
+            <div class="play-pause" onclick="playPause()">
+                <i class="fas fa-play"></i>
+            </div>
+            <i class="fas fa-step-forward"></i>
+        </div>
+        <div class="container">
+            <div class="song">
+                <p class="song-name">1. First Song</p>
+                <audio class="audio" src="audios/Song1.mp3"></audio>
+            </div>
+            <div class="song">
+                <p class="song-name">2. Second Song</p>
+                <audio class="audio" src="audios/Song2.mp3"></audio>
+            </div>
+            <div class="song">
+                <p class="song-name">3. Third Song</p>
+                <audio class="audio" src="audios/Song3.mp3"></audio>
+            </div>
+            <div class="song">
+                <p class="song-name">4. Fourth Song</p>
+                <audio class="audio" src="audios/Song4.mp3"></audio>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+<!--<i class="fas fa-sort-down"></i>-->
+<!--<i class="fas fa-step-backward"></i>-->
+<!--<i class="fas fa-step-forward"></i>-->
+<!--<i class="fas fa-play"></i>-->
+<!--<i class="fas fa-pause"></i>-->
