@@ -23,29 +23,34 @@
             <p>Now Playing: <span id="now-playing"></span></p>
         </div>
         <div class="icons">
-            <i class="fas fa-step-backward"></i>
-            <div class="play-pause" onclick="playPause()">
+            <i id="backBtn" class="fas fa-step-backward"></i>
+            <div class="play-pause" id="playPause" onclick="playPause()">
                 <i class="fas fa-play"></i>
             </div>
-            <i class="fas fa-step-forward"></i>
+            <i id="nextBtn" class="fas fa-step-forward"></i>
         </div>
         <div class="container">
+
             <div class="song">
                 <p class="song-name">1. First Song</p>
                 <audio class="audio" src="audios/Song1.mp3"></audio>
             </div>
+
             <div class="song">
                 <p class="song-name">2. Second Song</p>
                 <audio class="audio" src="audios/Song2.mp3"></audio>
             </div>
+
             <div class="song">
                 <p class="song-name">3. Third Song</p>
                 <audio class="audio" src="audios/Song3.mp3"></audio>
             </div>
+
             <div class="song">
                 <p class="song-name">4. Fourth Song</p>
                 <audio class="audio" src="audios/Song4.mp3"></audio>
             </div>
+
         </div>
     </div>
 </body>
