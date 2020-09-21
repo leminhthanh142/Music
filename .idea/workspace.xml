@@ -13,7 +13,6 @@
       <change beforePath="$PROJECT_DIR$/../Drum-Kit/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Drum-Kit/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login Form" beforeDir="false" afterPath="$PROJECT_DIR$/../Login Form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Omnifood project" beforeDir="false" afterPath="$PROJECT_DIR$/../Omnifood project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../airbnb" beforeDir="false" afterPath="$PROJECT_DIR$/../airbnb" afterDir="false" />
@@ -41,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/../interface of ip ?/interface.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface of ip ?/public/image/tuchup.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../kiniem30namngaysinhHCM" beforeDir="false" afterPath="$PROJECT_DIR$/../kiniem30namngaysinhHCM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-js/stop-watch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-js/stop-watch/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-webrtc" beforeDir="false" afterPath="$PROJECT_DIR$/../react-webrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
@@ -114,7 +114,11 @@
       <workItem from="1600528790515" duration="929000" />
       <workItem from="1600567881707" duration="111000" />
       <workItem from="1600568036545" duration="11009000" />
-      <workItem from="1600654974235" duration="2472000" />
+      <workItem from="1600654974235" duration="2671000" />
+      <workItem from="1600674932789" duration="2000" />
+      <workItem from="1600682937359" duration="4425000" />
+      <workItem from="1600727693471" duration="36000" />
+      <workItem from="1600727743544" duration="138000" />
     </task>
     <servers />
   </component>
