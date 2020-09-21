@@ -18,6 +18,26 @@ function playSong () {
     audio.play();
 }
 
+// change the name of the song whenever user click a new song, next or back button
+function changeName () {
+    nowPlaying.innerHTML = songName[currentSong].innerHTML;
+}
+
+// whenever user click a song ---> play it
+songs.forEach(song => song.addEventListener("click", function () {
+    playSong();
+    togglePlayPause();
+    changeName();
+}))
+
+
+// auto play next song when the previous has ended
+audio.addEventListener("ended", function () {
+    audio.load();
+    playSong();
+})
+
+
 // toggle the play - pause button
 playBtn.addEventListener("click", togglePlayPause);
 function togglePlayPause () {
@@ -31,11 +51,13 @@ function togglePlayPause () {
     }
 }
 
+
+// convert the duration of song into real time with progressbar
 audio.addEventListener("timeupdate", function () {
+
     let position = audio.currentTime / audio.duration;
     progressBar.style.width = position * 100 + "%";
 
-    // convert the duration of song into real time with progressbar
     convertTime();
     function convertTime(seconds) {
         seconds = Math.round(audio.currentTime);
@@ -67,6 +89,8 @@ nextBtn.addEventListener("click", function () {
     togglePlayPause();
     changeName();
 })
+
+
 // click to play the previous song
 backBtn.addEventListener("click", function () {
     currentSong --;
@@ -78,16 +102,3 @@ backBtn.addEventListener("click", function () {
     togglePlayPause();
     changeName();
 })
-
-
-// change the name of the song whenever user click a new song, next or back button
-function changeName () {
-    nowPlaying.innerHTML = songName[currentSong].innerHTML;
-}
-
-// whenever user click a song ---> play it
-songs.forEach(song => song.addEventListener("click", function () {
-    playSong();
-    togglePlayPause();
-    changeName();
-}))
