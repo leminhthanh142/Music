@@ -10,49 +10,72 @@ let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 let appendSec = document.getElementById("sec");
 let appendMin = document.getElementById("min");
-let currentSong = 0;
+// let currentSong = 0;
 
-
-
-// play the song
-function playSong () {
-    audios[currentSong].play();
-}
-
-
-
-// change the name of the song when user click a new song
-function changeName () {
-    songName.forEach((name, index) => {
-        name.addEventListener("click", function () {
-            nowPlaying.innerHTML = songName[index].innerHTML;
-        })
-    })
-}
-
-
-
-// toggle play and pause button
-function playPause () {
-    if (audios[currentSong].paused) {
-        audios[currentSong].play();
-        playBtn.innerHTML = '<i class="fa fa-pause">'
-    }
-    else {
-        audios[currentSong].pause();
-        playBtn.innerHTML = '<i class="fa fa-play">'
-    }
-}
 
 
 
 // convert the real time into  progress - bar
 song.forEach((song, index) => {
     song.addEventListener("click", function () {
+
+        // change the button appearance when user click a song
         playBtn.innerHTML = '<i class="fa fa-pause">';
+
+
+        // play the song
+        function playSong () {
+            audios[index].play();
+        }
+        playSong();
+
+        // click to play next song
+        nextBtn.addEventListener("click", function (){
+            index++;
+            console.log(audios[index]);
+            console.log(index);
+            playBtn.innerHTML = '<i class="fa fa-pause">'
+            if (index > audios.length) {
+                index = 0;
+            }
+            changeName();
+            playSong();
+        })
+
+
+        // click to play previous song
+        backBtn.addEventListener("click", function () {
+            index--;
+            console.log(index);
+            playBtn.innerHTML = '<i class="fa fa-pause">'
+            if (index < 0) {
+                index = audios.length;
+            }
+            changeName();
+            playSong();
+        })
+
+        // // toggle play and pause button
+        // if (audios[index].paused) {
+        //     audios[index].play();
+        //     playBtn.innerHTML = '<i class="fa fa-pause">'
+        // }
+        // else {
+        //     audios[index].pause();
+        //     playBtn.innerHTML = '<i class="fa fa-play">'
+        // }
+
+
+        // change the name of song when user click
+        function changeName () {
+            nowPlaying.innerHTML = songName[index].innerHTML;
+        }
         changeName();
-        audios[index].play();
+
+
+
         audios[index].addEventListener("timeupdate", function () {
+            // convert the duration of song into real time with progressbar
             let position = audios[index].currentTime/audios[index].duration;
             progressBar.style.width = position * 100 + "%";
             convertTime();
@@ -75,28 +98,4 @@ song.forEach((song, index) => {
             }
         })
     })
-})
-
-
-// click to play next song
-nextBtn.addEventListener("click", function (){
-    currentSong++;
-    playBtn.innerHTML = '<i class="fa fa-pause">'
-    if (currentSong === audios.length - 1) {
-        currentSong = -1;
-    }
-    changeName();
-    playSong();
-})
-
-
-// click to play previous song
-backBtn.addEventListener("click", function () {
-    currentSong--;
-    playBtn.innerHTML = '<i class="fa fa-pause">'
-    if (currentSong < 0) {
-        currentSong = audios.length;
-    }
-    changeName();
-    playSong();
 })

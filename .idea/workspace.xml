@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../Drum-Kit/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Drum-Kit/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Drum-Kit/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Drum-Kit/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login Form" beforeDir="false" afterPath="$PROJECT_DIR$/../Login Form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -114,7 +113,8 @@
       <workItem from="1600527179720" duration="1367000" />
       <workItem from="1600528790515" duration="929000" />
       <workItem from="1600567881707" duration="111000" />
-      <workItem from="1600568036545" duration="9435000" />
+      <workItem from="1600568036545" duration="11009000" />
+      <workItem from="1600654974235" duration="2472000" />
     </task>
     <servers />
   </component>
@@ -134,5 +134,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600528815894" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600654980863">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.835@0.23.1440.835" timestamp="1600654980863" />
   </component>
 </project>
