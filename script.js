@@ -35,9 +35,9 @@ songs.forEach((song, index) => {
 
 // auto play next song when the previous has ended
 audio.addEventListener("ended", function () {
-
-    audio.load();
+    currentSong++;
     playSong();
+    changeName();
 })
 
 
