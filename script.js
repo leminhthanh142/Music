@@ -24,15 +24,18 @@ function changeName () {
 }
 
 // whenever user click a song ---> play it
-songs.forEach(song => song.addEventListener("click", function () {
-    playSong();
-    togglePlayPause();
-    changeName();
-}))
-
+songs.forEach((song, index) => {
+    song.addEventListener("click", function () {
+        currentSong = index;
+        playSong();
+        playBtn.innerHTML = '<i class="fa fa-pause">';
+        changeName();
+    })
+})
 
 // auto play next song when the previous has ended
 audio.addEventListener("ended", function () {
+
     audio.load();
     playSong();
 })
@@ -80,13 +83,11 @@ audio.addEventListener("timeupdate", function () {
 // click to play the next song
 nextBtn.addEventListener("click", function () {
     currentSong ++;
-    console.log(currentSong);
     playBtn.innerHTML = '<i class="fa fa-pause">';
     if (currentSong === audios.length) {
         currentSong = 0;
     }
     playSong();
-    togglePlayPause();
     changeName();
 })
 
@@ -94,11 +95,10 @@ nextBtn.addEventListener("click", function () {
 // click to play the previous song
 backBtn.addEventListener("click", function () {
     currentSong --;
-    playBtn.innerHTML = '<i class="fa fa-play">';
+    playBtn.innerHTML = '<i class="fa fa-pause">';
     if (currentSong < 0) {
         currentSong = audios.length - 1;
     }
     playSong();
-    togglePlayPause();
     changeName();
 })
