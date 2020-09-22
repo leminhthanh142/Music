@@ -8,6 +8,7 @@ let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 let appendSec = document.getElementById("sec");
 let appendMin = document.getElementById("min");
+let title = document.querySelector("title");
 
 let currentSong = 0;
 let audio = new Audio();
@@ -21,6 +22,7 @@ function playSong () {
 // change the name of the song whenever user click a new song, next or back button
 function changeName () {
     nowPlaying.innerHTML = songName[currentSong].innerHTML;
+    title.innerHTML = songName[currentSong].innerHTML;
 }
 
 // whenever user click a song ---> play it
