@@ -5,6 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="845230e1-c4b2-4bb4-89bf-e8d24e0abadd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../30 days js challenge/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30 days js challenge/Ajax type ahead/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30 days js challenge/Ajax type ahead/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30 days js challenge/Ajax type ahead/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/.idea/404-Not-Found-Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/public/images/Scarecrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/public/images/devchallenges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../404-Not-Found-Challenge/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax Type Ahead/.idea/Ajax Type Ahead.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax Type Ahead/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax Type Ahead/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax Type Ahead/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array Cardio 1/.idea/Array Cardio 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array Cardio 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array Cardio 1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Battle-ship/.idea/Battle-ship.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Battle-ship/battleship.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Battle-ship/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS variables With JS/.idea/CSS variables With JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS variables With JS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Duyen/.idea/Duyen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Duyen/images/279111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Duyen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Duyen/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanh/.idea/Hanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanh/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanh/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Huyen/.idea/Huyen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Huyen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Huyen/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ngan/.idea/Ngan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ngan/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ngan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ngan/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term-2/.idea/PCO-Mid-Term-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term-2/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term-2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term-2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PCO-Mid-Term/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pop-Up-Animation/.idea/Pop-Up-Animation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pop-Up-Animation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pop-Up-Animation/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pop-Up-Animation/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/.idea/Quizz App.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/public/images/background/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/public/images/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/public/images/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quizz App/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao ngu/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao ngu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao ngu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/.idea/doan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doan/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../duat/.idea/duat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../duat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../duat/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/.idea/khanh seo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/images/khanh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/images/khanh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/images/khanh3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh seo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh/.idea/khanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khanh/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/public/images/layer_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallax-2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phuc/.idea/phuc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phuc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phuc/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quynh/.idea/quynh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quynh/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quynh/public/images/quynh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quynh/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/bamboo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/contours-opaque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/enso.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/gridlines-opaque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/huntington.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/koi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clock" beforeDir="false" afterPath="$PROJECT_DIR$/../Clock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clone git project/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clone git project/helen" beforeDir="false" />
@@ -12,9 +118,18 @@
       <change beforePath="$PROJECT_DIR$/../Drum-Kit/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Drum-Kit/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Drum-Kit/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Drum-Kit/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login Form" beforeDir="false" afterPath="$PROJECT_DIR$/../Login Form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Omnifood project" beforeDir="false" afterPath="$PROJECT_DIR$/../Omnifood project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../airbnb" beforeDir="false" afterPath="$PROJECT_DIR$/../airbnb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/.idea/button j4f.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/j4f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../button j4f/j4f.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../clock with pure css ?? Why not/.idea/clock with pure css ?? Why not.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../clock with pure css ?? Why not/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../clock with pure css ?? Why not/.idea/misc.xml" beforeDir="false" />
@@ -25,7 +140,7 @@
       <change beforePath="$PROJECT_DIR$/../clock with pure css ?? Why not/images/this-free-icons-png-design-of-diy-clock-face-11563233883w3fofhcdjg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../clock with pure css ?? Why not/interface.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../css-zen-garden" beforeDir="false" afterPath="$PROJECT_DIR$/../css-zen-garden" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flexbox" beforeDir="false" afterPath="$PROJECT_DIR$/../flexbox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flexbox" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../form-ref" beforeDir="false" afterPath="$PROJECT_DIR$/../form-ref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../htmlWeb/.idea/htmlWeb.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../htmlWeb/.idea/misc.xml" beforeDir="false" />
@@ -38,15 +153,41 @@
       <change beforePath="$PROJECT_DIR$/../interface of ip ?/design.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface of ip ?/interface.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface of ip ?/public/image/tuchup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript-codewar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javascript-codewar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript-codewar/filling-an-array/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../javascript-codewar/filling-an-array/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kiniem30namngaysinhHCM" beforeDir="false" afterPath="$PROJECT_DIR$/../kiniem30namngaysinhHCM" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-js/stop-watch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-js/stop-watch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/parallax.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/images/layer_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/styles/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/styles/test.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/public/styles/test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/src/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/src/login/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/src/login/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/src/login/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parallax/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-webrtc" beforeDir="false" afterPath="$PROJECT_DIR$/../react-webrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled2/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" beforeDir="false" />
@@ -124,7 +265,21 @@
       <workItem from="1600751527597" duration="394000" />
       <workItem from="1600753500712" duration="3720000" />
       <workItem from="1600759136110" duration="151000" />
-      <workItem from="1600763397577" duration="1019000" />
+      <workItem from="1600763397577" duration="1237000" />
+      <workItem from="1600785088848" duration="13000" />
+      <workItem from="1600839732389" duration="30000" />
+      <workItem from="1600844372894" duration="96000" />
+      <workItem from="1600953004116" duration="259000" />
+      <workItem from="1600964516893" duration="260000" />
+      <workItem from="1600967183037" duration="20000" />
+      <workItem from="1600997573847" duration="6000" />
+      <workItem from="1601277406366" duration="478000" />
+      <workItem from="1602295884028" duration="62000" />
+      <workItem from="1609401018046" duration="253000" />
+      <workItem from="1609659697642" duration="1000" />
+      <workItem from="1609742529315" duration="107000" />
+      <workItem from="1609854632255" duration="6110000" />
+      <workItem from="1609863327171" duration="961000" />
     </task>
     <servers />
   </component>
@@ -152,5 +307,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1600753645079" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/script.js</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

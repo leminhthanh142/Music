@@ -9,9 +9,14 @@ let nextBtn = document.getElementById("nextBtn");
 let appendSec = document.getElementById("sec");
 let appendMin = document.getElementById("min");
 let title = document.querySelector("title");
+let songContainer = document.querySelector(".song-container");
+let bar = document.querySelector(".bar");
+let volume = document.querySelector(".volume input");
+console.log(volume)
 
 let currentSong = 0;
 let audio = new Audio();
+
 
 // play the song
 function playSong () {
@@ -19,21 +24,31 @@ function playSong () {
     audio.play();
 }
 
+const changeVolume = () => {
+    console.log(volume.value);
+    audio.volume = volume.value / 100;
+}
+
+volume.addEventListener("change", changeVolume);
+volume.addEventListener("mousemove", changeVolume);
+
 // change the name of the song whenever user click a new song, next or back button
 function changeName () {
     nowPlaying.innerHTML = songName[currentSong].innerHTML;
     title.innerHTML = songName[currentSong].innerHTML;
 }
 
+
 // whenever user click a song ---> play it
 songs.forEach((song, index) => {
     song.addEventListener("click", function () {
         currentSong = index;
-        playSong();
         playBtn.innerHTML = '<i class="fa fa-pause">';
+        playSong();
         changeName();
     })
 })
+
 
 // auto play next song when the previous has ended
 audio.addEventListener("ended", function () {
@@ -104,3 +119,16 @@ backBtn.addEventListener("click", function () {
     playSong();
     changeName();
 })
+
+let flag = false;
+const toggleMenu = () => {
+    flag = !flag;
+    if (flag === true) {
+        bar.style.transform = "rotate(180deg)";
+        songContainer.style.left = "0";
+    }
+    else {
+        bar.style.transform = "rotate(0deg)";
+        songContainer.style.left = "-100%";
+    }
+}
