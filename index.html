@@ -34,7 +34,8 @@
         </div>
 
         <div class="time">
-            <span id="min">00</span>:<span id="sec">00</span>
+            <div><span id="min"></span><span id="sec"></span></div>
+            <div><span id="total-min"></span><span id="total-sec"></span></div>
         </div>
 
         <div class="icons">
@@ -68,9 +69,21 @@
         </div>
     </div>
 
+    <div class="time-display">
+        <span id="hours"></span><span id="mins"></span>
+    </div>
+
     <div class="volume">
         <input max="100" min="1" type="range" value="100">
     </div>
+
+    <div class="group-icons">
+        <div class="circle"></div>
+        <div class=""></div>
+        <div></div>
+    </div>
+
+    <button onclick="loopState()">Loop</button>
 </div>
 </body>
 <script src="script.js"></script>

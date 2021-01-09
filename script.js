@@ -8,15 +8,24 @@ let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
 let appendSec = document.getElementById("sec");
 let appendMin = document.getElementById("min");
+let totalMin = document.getElementById("total-min");
+let totalSec = document.getElementById("total-sec");
+let hours = document.getElementById("hours");
+let mins = document.getElementById("mins");
 let title = document.querySelector("title");
 let songContainer = document.querySelector(".song-container");
 let bar = document.querySelector(".bar");
 let volume = document.querySelector(".volume input");
-console.log(volume)
+
+function timeUpdate () {
+    let date = new Date();
+    hours.innerHTML = "" + date.getHours();
+    (date.getMinutes() >= 10)? mins.innerHTML = ":" + date.getMinutes() : mins.innerHTML = ":0" + date.getMinutes();
+}
+setInterval(timeUpdate, 1000);
 
 let currentSong = 0;
 let audio = new Audio();
-
 
 // play the song
 function playSong () {
@@ -24,8 +33,19 @@ function playSong () {
     audio.play();
 }
 
+// loop the song
+function loopState() {
+    flag = !flag;
+    if (flag === true) {
+        audio.addEventListener("ended", function () {
+            this.currentTime = 0;
+            this.play();
+        })
+    }
+    
+}
+
 const changeVolume = () => {
-    console.log(volume.value);
     audio.volume = volume.value / 100;
 }
 
@@ -53,10 +73,10 @@ songs.forEach((song, index) => {
 // auto play next song when the previous has ended
 audio.addEventListener("ended", function () {
     currentSong++;
+    if (currentSong >= audios.length) currentSong = 0;
     playSong();
     changeName();
 })
-
 
 // toggle the play - pause button
 playBtn.addEventListener("click", togglePlayPause);
@@ -79,20 +99,27 @@ audio.addEventListener("timeupdate", function () {
     progressBar.style.width = position * 100 + "%";
 
     convertTime();
+    totalDuration();
+
+    //total duration
+    function totalDuration () {
+        let sec = Math.round(audio.duration % 60);
+        let min = Math.floor(audio.duration / 60);
+
+        (sec < 10)? totalSec.innerHTML = ":0" + sec : totalSec.innerHTML = ":" + sec;
+
+        (min < 10)? totalMin.innerHTML = "0" + min : totalSec.innerHTML = "" + min;
+    }
+
     function convertTime(seconds) {
         seconds = Math.round(audio.currentTime);
         let min = Math.floor(seconds / 60);
         let sec = seconds % 60;
-        if (sec < 10) {
-            appendSec.innerHTML = "0" + sec;
-        } else {
-            appendSec.innerHTML = sec;
-        }
-        if (min < 10) {
-            appendMin.innerHTML = "0" + min;
-        } else {
-            appendMin.innerHTML = min;
-        }
+
+        (sec < 10)? appendSec.innerHTML = ":0" + sec : appendSec.innerHTML = ":" + sec;
+
+        (min < 10)? appendMin.innerHTML = "0" + min : appendMin.innerHTML = "" + min;
+
     }
 })
 
